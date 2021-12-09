@@ -1,0 +1,28 @@
+.drop-targets {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 2px solid gray;
+  display: flex;
+  margin-right: 10px;
+}
+
+.item {
+  width: 75px;
+  height: 75px;
+  margin: auto;
+  background-color: yellow;
+  vertical-align: middle;
+}
+
+.hide {
+  display: none;
+}
+
+.drag-over {
+  border: dashed 3px red;
+}
